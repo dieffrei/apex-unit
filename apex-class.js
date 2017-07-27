@@ -3,8 +3,8 @@
  */
 class ApexClass {
     
-    constructor(){
-        
+    constructor(jsonData){
+        _.extend(this, jsonData);
     }
     
 }
