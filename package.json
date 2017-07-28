@@ -1,19 +1,21 @@
 {
   "name": "apex-unit",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.7",
+  "description": "Salesforce code coverage tool",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Diéffrei tiepo de quadors",
   "license": "ISC",
   "dependencies": {
+    "jsforce": "^1.8.0",
     "kale": "^0.2.0",
     "minimist": "^1.2.0",
     "q": "^1.5.0",
     "restler": "^3.4.0",
     "sleep": "^5.1.1",
     "underscore": "^1.8.3"
-  }
+  },
+  "bin": {
+    "apex-unit": "bin/apex-unit.js"
+  },
+  "preferGlobal": "true"
 }
