@@ -1,6 +1,6 @@
 {
   "name": "apex-unit",
-  "version": "1.0.7",
+  "version": "1.3.9",
   "description": "Salesforce code coverage tool",
   "main": "index.js",
   "author": "Diéffrei tiepo de quadors",
